@@ -128,19 +128,23 @@
                         </p>
 
                         <div class="text-h5 text--primary mt-10">Mechanical</div>
-                        <p class="mt-2">- Repair and maintain worn or damaged components on Sparky.</p>
-                        <p class="mt-2">- Define mechanical requirements for the next-generation RamBOT.</p>
-                        <p class="mt-2">- Improve accessibility, serviceability, and manufacturability.</p>
+                        <p class="mt-2">- Develop a durable mechanical platform for RamBOT Mk II that can handle repeated demonstrations and outreach events.</p>
+                        <p class="mt-2">- Refine the leg and drivetrain design to improve mobility, stability, and ease of repair.</p>
+                        <p class="mt-2">- Design components with practical manufacturing, assembly, and maintenance in mind.</p>
+                        <p class="mt-2">- Use iterative prototype testing methods to guide improvements before committing to the final Mk II design.</p>
 
                         <div class="text-h5 text--primary mt-10">Computer and Software</div>
-                        <p class="mt-2">- Maintain and document the existing software system.</p>
-                        <p class="mt-2">- Define computing and control requirements for the next-generation platform.</p>
-                        <p class="mt-2">- Improve system integration, reliability, and ease of use.</p>
+                        <p class="mt-2">- Develop a dependable software and controls foundation for RamBOT Mk II.</p>
+                        <p class="mt-2">- Bring motors, sensors, and other hardware together into a coordinated control system.</p>
+                        <p class="mt-2">- Build software that supports responsive movement and interactive outreach features.</p>
+                        <p class="mt-2">- Create a codebase that is organized, documented, and easier for future RamBOT teams to continue developing.</p>
 
                         <div class="text-h5 text--primary mt-10">Electrical</div>
-                        <p class="mt-2">- Maintain and document Sparky's electrical systems.</p>
-                        <p class="mt-2">- Define electrical architecture requirements for the next-generation robot.</p>
-                        <p class="mt-2">- Improve wiring, power distribution, reliability, and maintainability.</p>
+                        <p class="mt-2">- Build a reliable power and electrical architecture for RamBOT Mk II.</p>
+                        <p class="mt-2">- Improve wiring and power distribution so the robot is easier to troubleshoot and maintain.</p>
+                        <p class="mt-2">- Select and integrate electrical hardware that supports the robot’s mobility, sensing, and outreach features.</p>
+                        <p class="mt-2">- Keep Sparky’s electrical systems functional and well documented for continued demonstrations.</p>
+
                     </v-card-text>
                 </v-card>
             </v-col>
