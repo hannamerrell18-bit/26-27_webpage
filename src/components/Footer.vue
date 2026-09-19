@@ -1,4 +1,13 @@
 <template>
+    <div>
+        <div class="ece-logo-section">
+            <img  
+                :src="require('@/assets/Logos/ECE_CSU_logo.png')"
+                alt="Colorado State University Electrical and Computer Engineering"
+                class="ece-logo"
+            >
+        </div>
+    </div>
     <v-footer bottom color="primary">
         <v-row justify="center" no-gutters>
             <v-col class="py-1 text-center text-white text-overline" cols="12">
@@ -23,3 +32,15 @@ export default {
     data: () => ({}),
 }
 </script>
+
+<style scoped>
+.ece-logo-section {
+    text-align: center;
+    padding: 24px 16px;
+}
+.ece-logo {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+</style>

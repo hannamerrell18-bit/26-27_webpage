@@ -4,44 +4,23 @@
             <v-col :cols="12">
                 <v-card>
                     <v-card-title>
-                        <span class="font-weight-black">2025-2026 Project Timeline</span>
+                        <span class="text-h4 text--primary mt-0">2026-2027 Project Timeline</span>
                     </v-card-title>
                     <v-card-text>
-                        <p class="timeline-section-title">Engineering Teams Timeline2025</p>
-                        <p>Logistical Timeline</p>
-                        <img :src="require('@/assets/AY25/Timeline/logistical25.png')" alt="Fall 2025" style="max-width: 100%; height: auto;">
-
-                        
-                        <p>Electrical Engineering Timeline</p>
-                        <img :src="require('@/assets/AY25/Timeline/ee25.png')" alt="Fall 2025" style="max-width: 100%; height: auto;">
-                        
-                        
-                        <p>Computer Engineering Timeline</p>
-                        <img :src="require('@/assets/AY25/Timeline/cpe25.png')" alt="Fall 2025" style="max-width: 100%; height: auto;">
-                        
-                        
-                        <p>Mechanical Engineering Timeline</p>
-                        <img :src="require('@/assets/AY25/Timeline/me25.png')" alt="Fall 2025" style="max-width: 100%; height: auto;">
-
-                        <p class="timeline-section-title">Subteams Timeline 2026</p>
-                        <p>Logistical Timeline</p>
-                        <img :src="require('@/assets/AY25/Timeline/logistical2026.png')" alt="Spring 2026" style="max-width: 100%; height: auto;">
-
-                        <p>RamBot Timeline</p>
-                        <img :src="require('@/assets/AY25/Timeline/rambot_subteam.png')" alt="Spring 2026" style="max-width: 100%; height: auto;">
-
-                        <p>ArmBot Timeline</p>
-                        <img :src="require('@/assets/AY25/Timeline/armbot_subteam.png')" alt="Spring 2026" style="max-width: 100%; height: auto;">
-
-                        <p>RamBot MK2 Timeline</p>
-                        <img :src="require('@/assets/AY25/Timeline/MK2_subteam.png')" alt="Spring 2026" style="max-width: 100%; height: auto;">
-
-                        
-                        <p>Deliverables Timeline</p>
-                        <img :src="require('@/assets/AY25/Timeline/deliverables.png')" alt="2026 Deliverables" style="max-width: 100%; height: auto;">
-
-                        <p>Intern Tasks Timeline</p>
-                        <img :src="require('@/assets/AY25/Timeline/intern_tasks.png')" alt="2026 Intern Tasks" style="max-width: 100%; height: auto;">
+                        <p class="timeline-section-title">Engineering Teams Timeline 2026-2027</p>
+                            <p>Full-Year Master Timeline</p>
+                            <img 
+                                :src="require('@/assets/AY26/Timelines/master_timeline.png')" 
+                                alt="RamBOTs 2026-2027 Full-Year Project Timeline" 
+                                class="timeline-image"
+                                @click="lightboxVisible = true"
+                            >
+                            <VueEasyLightbox
+                            :visible="lightboxVisible"
+                            :imgs="[require('@/assets/AY26/Timelines/master_timeline.png')]"
+                            @hide="lightboxVisible = false"
+                            />
+                        <p class="timeline-hint">Click the timeline to enlarge </p>
                     </v-card-text>
                 </v-card>
             </v-col>
@@ -50,12 +29,15 @@
 </template>
 
 <script>
+import VueEasyLightbox from 'vue-easy-lightbox'
+
 export default {
+    components: {
+        VueEasyLightbox,
+    },
     data() {
         return {
-            timelineImage1: require('@/assets/AY25/Timeline/logistical25.png'),
-            timelineImage3: require('@/assets/AY25/Timeline/ee25.png'),
-            timelineImage5: require('@/assets/AY25/Timeline/cpe25.png'),
+            lightboxVisible: false,
         }
     },
 }
@@ -64,8 +46,25 @@ export default {
 <style scoped>
 .timeline-section-title {
     text-decoration: underline;
-    font-size: 1.1rem;
-    font-weight: 500;
-    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    color: #1E4D2B;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.timeline-description{
+    margin-bottom: 1rem;
+}
+.timeline-image {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.timeline-hint {
+    text-align: center;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-botom:0.5rem;
 }
 </style>

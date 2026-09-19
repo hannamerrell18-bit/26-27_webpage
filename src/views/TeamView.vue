@@ -79,6 +79,87 @@ export default {
             tab: 0,
             years: [
                 {
+                    title: '2026/2027',
+                    seniors:[
+                        {
+                            title: 'Hanna Merrell',
+                            src: require('@/assets/AY26/Headshots/HannaPhoto.jpg'),
+                            linkedin: "hanna-merrell",
+                            email: 'hmerrell@colostate.edu',
+                            text: "I am a 4th-year, 2nd degree-seeking student studying mechanical engineering. I am most interested in mechanical/system design, prototyping, and anything to do with robotics or automation. Outside of school, you can find me playing video games, sewing, making cosplay props, or spending time with my horse and dog."
+                        },
+                        {
+                            title: 'Jacob Olguin',
+                            src: require('@/assets/AY26/Headshots/JacobPhoto.jpeg'),
+                            linkedin: "",
+                            email: 'jacob.olguin@colostate.edu',
+                            text: "Hello, my name is Jacob Olguin. I am a 5th year electrical and computer engineer. Some things about me is that I am in Sigma Phi Epsilon, I played college baseball, family and friends are very important to me, I have a dog named Achilles, I love Greek mythology, and I can’t wait to graduate."
+                        },
+                        {
+                            title: 'Logan LaPierre',
+                            src: require('@/assets/AY26/Headshots/LoganPhoto.jpeg'),
+                            linkedin: "",
+                            email: 'Logan.LaPierre@colostate.edu',
+                            text:"Logan LaPierre is a Mechanical Engineer undergraduate working on the RamBots project for his senior design. He has experience in 3D Modeling & CAD, FEA Testing, and the manufacturing and assembly of robotic machines and other designs."
+                        },
+                        {
+                            title: 'Zachary Hollema',
+                            src: require('@/assets/AY26/Headshots/ZachPhoto.jpg'),
+                            linkedin: "",
+                            email: 'zachary.hollema@colostate.edu',
+                            text: "I'm a senior in Mechanical Engineering and plan to declare a concentration in Robotics and Automation. I think robots are fascinating, and I have a passion for seeing ideas turn into real, working systems. When I'm not at school or work, I spend my time producing electronic music."
+                        },
+                        {
+                            title: 'Kang Sung',
+                            src: require('@/assets/AY26/Headshots/Sung Kang.jpg'),
+                            linkedin: "sung-kang-0208a1320",
+                            email: 'skang5260@gmail.com',
+                            text:"I am a 4th year electrical engineering student with an interest in CAD, additive manufacturing, embedded systems/IOT, and circuit design. For my hobbies I enjoy building and painting models, making props and costumes, and playing video games!"
+                        },
+                        {
+                            title: 'Lily Solheim',
+                            src: require('@/assets/AY26/Headshots/LilyPhoto.jpeg'),
+                            linkedin: "",
+                            email: 'Lily.Solheim@colostate.edu',
+                            text:"I’m a senior, my major is computer engineering. I have been an undergrad teaching assistant for 2 years for an intro to Java course. I love reading fantasy and romance, I crochet, and I love exploring the wilderness."
+                        },
+                        {
+                            title: 'Francis "Luke" Hammen',
+                            src: require('@/assets/AY26/Headshots/LukePhoto.jpg'),
+                            linkedin: "I am a senior in Computer Engineering with an interest in VSLI design and computer architecture. I have multiple years of experience in the power industry and control systems. In my free time I enjoy modding game consoles, fishing , and building things using my 3d printer.",
+                            email: 'Francis.Hammen@colostate.edu',
+                            text:"I am a senior in Computer Engineering with an interest in VSLI design and computer architecture. I have multiple years of experience in the power industry and control systems. In my free time I enjoy modding game consoles, fishing , and building things using my 3d printer."
+                        }
+                    ],
+                    vips: [
+                        {
+                            title: 'Kayden Vicenti',
+                            src: require('@/assets/AY26/Headshots/KaydenPhoto.jpg'),
+                            linkedin: "",
+                            email: 'kayden.vicenti@colostate.edu',
+                            text: "I have a bachelors of Science in Software Engineering. I am currently a 1st year electrical enigneering student. Interersted in Aerospace and avionics. outside of school I like to crochet and sew. I am working on getting my ham radio license, remote Pilot Certificate, and the high powered rocketry L2 certification!"
+                        },
+                         {
+                            title: 'Gavan Bethurum',
+                            src: require('@/assets/AY26/Headshots/GavanPhoto_VIP.jpg'),
+                            linkedin: "",
+                            email: 'gavan.bethurum@colostate.edu',
+                            text: "Hi! I'm junior Electrical Engineering student who enjoys hiking, reading, and baking sweets."
+                        },
+                       
+                        {
+                            title: 'Tyler Lay',
+                            src: require('@/assets/AY26/Headshots/TylerPhoto.jpg'),
+                            linkedin: "",
+                            email: 'tlay221@gmail.com',
+                            text: "I am a Computer Engineering student graduating in 2029. My main interests are mechatronics, embedded systems, robotics, and hardware/software integration. Outside of school, I enjoy camping with my wife Angel, and my dogs Zola and Shiloh, snowboarding, and playing old-school video games like Super Mario Bros. and Donkey Kong 64."
+                        }
+                    ],
+                    advisor: 'Olivera Notaros',
+                    industryMembers: ['Jon Lotz'],
+                    teamImage: require('@/assets/AY26/Gallery/SeniorsPhoto.jpeg')
+                },
+                {
                     title: '2025/2026',
                     seniors:[
                         {

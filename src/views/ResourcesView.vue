@@ -47,8 +47,8 @@
                             </v-list-item>
                             <v-list-item>
                                 <v-list-item-title>
-                                    <a href="https://projects-web.engr.colostate.edu/ece-sr-design/AY23/RamBOTs" class="text-decoration-none">
-                                        RamBOTs 2023-2024 Team's Website
+                                    <a href="https://projects-web.engr.colostate.edu/ece-sr-design/AY25/RamBOTs/" class="text-decoration-none">
+                                        RamBOTs 2025-2026 Team's Website
                                     </a>
                                 </v-list-item-title>
                                 <v-list-item-subtitle class="ml-4">

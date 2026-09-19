@@ -38,6 +38,15 @@ export default {
             tab: 0,
             years: [
                 {
+                    title: '2026/2027',
+                    sections: [
+                        {
+                            title: 'Photos coming soon!'
+                            
+                        },
+                     ]
+                },
+                {
                     title: '2025/2026',
                     sections: [
                         {
